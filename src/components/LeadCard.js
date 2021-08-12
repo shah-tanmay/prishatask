@@ -55,7 +55,7 @@ function LeadCard({ name, prevSales, sales }) {
 			</div>
 			<div className="bg-purple-400 mt-10 ml-10 rounded-2xl p-10">
 				<div className="font-semibold flex justify-center text-3xl text-white mb-4">
-					Tanmay Shah
+					{name}
 				</div>
 				<div>
 					<Doughnut
